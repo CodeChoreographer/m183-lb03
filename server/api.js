@@ -5,7 +5,6 @@ const { initializeDatabase, queryDB, insertDB } = require("./database");
 
 let db;
 
-// Middleware zur Authentifizierung mit JWT
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
@@ -15,12 +14,12 @@ const authenticateToken = (req, res, next) => {
   jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
     if (err) return res.status(403).json({ error: "Ungültiges Token" });
 
-    req.user = user; // Speichert den Benutzer in der Anfrage
+    req.user = user; 
     next();
   });
 };
 
-// Initialisierung der API
+
 const initializeAPI = async (app) => {
   db = await initializeDatabase();
 
@@ -29,7 +28,7 @@ const initializeAPI = async (app) => {
   app.post("/api/login", login);
 };
 
-// Feed abrufen (nur für authentifizierte Benutzer)
+
 const getFeed = async (req, res) => {
   try {
     const query = "SELECT id, username, timestamp, text FROM tweets ORDER BY id DESC";
@@ -41,7 +40,7 @@ const getFeed = async (req, res) => {
   }
 };
 
-// Tweet posten (nur für eingeloggte Benutzer)
+
 const postTweet = async (req, res) => {
   try {
     if (!req.user || !req.user.username) {
@@ -56,7 +55,6 @@ const postTweet = async (req, res) => {
     const username = req.user.username;
     const timestamp = new Date().toISOString();
 
-    // SQL-Injection verhindern mit Prepared Statements
     const query = "INSERT INTO tweets (username, timestamp, text) VALUES (?, ?, ?)";
     await insertDB(db, query, [username, timestamp, text]);
 
