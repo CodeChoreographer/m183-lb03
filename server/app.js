@@ -3,9 +3,13 @@ const http = require("http");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 const { initializeAPI } = require("./api");
+const pinoHttp = require("pino-http"); 
+const logger = require("./logger");
 
 const app = express();
 app.use(express.json());
+app.use(pinoHttp({ logger }));
+
 
 app.use(
   helmet({
@@ -43,5 +47,5 @@ initializeAPI(app);
 
 const serverPort = process.env.PORT || 3000;
 http.createServer(app).listen(serverPort, () => {
-  console.log(`Server läuft auf Port ${serverPort}`);
+ logger.info(`Server laeuft auf Port ${serverPort}`);
 });
