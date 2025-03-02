@@ -33,13 +33,14 @@ const initializeAPI = async (app) => {
 const getFeed = async (req, res) => {
   try {
     const query = "SELECT id, username, timestamp, text FROM tweets ORDER BY id DESC";
-    const tweets = await queryDB(db, query);
+    const tweets = await queryDB(db, query, []);
     res.json(tweets);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Serverfehler beim Abrufen des Feeds" });
   }
 };
+
 
 // Tweet posten (nur für eingeloggte Benutzer)
 const postTweet = async (req, res) => {
@@ -66,6 +67,7 @@ const postTweet = async (req, res) => {
   }
 };
 
+
 // Login-Funktion mit bcrypt & JWT-Erstellung
 const login = async (req, res) => {
   try {
@@ -81,7 +83,6 @@ const login = async (req, res) => {
       return res.status(401).json({ error: "Benutzer nicht gefunden" });
     }
 
-    // Passwort-Hash prüfen mit bcrypt
     const isMatch = await bcrypt.compare(password, user[0].password);
     if (!isMatch) {
       return res.status(401).json({ error: "Falsches Passwort" });
@@ -95,5 +96,7 @@ const login = async (req, res) => {
     res.status(500).json({ error: "Serverfehler beim Login" });
   }
 };
+
+
 
 module.exports = { initializeAPI };
