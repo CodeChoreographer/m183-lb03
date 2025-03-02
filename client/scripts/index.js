@@ -3,10 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const postTweetButton = document.getElementById("post-tweet");
   const logoutButton = document.getElementById("logout");
 
+  
   const user = JSON.parse(localStorage.getItem("user"));
   if (!user) {
     window.location.href = "/login.html";
   }
+
 
   const generateTweet = (tweet) => {
     const date = new Date(tweet.timestamp).toLocaleDateString("de-CH", {
