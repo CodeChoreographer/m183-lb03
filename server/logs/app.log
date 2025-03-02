@@ -1,0 +1,55 @@
+[2025-03-02 10:39:25] INFO (on WSM01): [2025-03-02T10:39:25.698Z] 30: Server laeuft auf Port 3000
+[2025-03-02 10:39:45] WARN (on WSM01): [2025-03-02T10:39:45.578Z] 40: 🚨 Fehlgeschlagener Login-Versuch ohne Username oder Passwort
+[2025-03-02 10:39:45] INFO (on WSM01): [2025-03-02T10:39:45.585Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "POST",
+      "url": "/api/login",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "29",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "cookie": "Idea-923b7a7=8304bc88-db61-4ee5-8a4e-38e1ae40795f"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 54820
+    }
+    res: {
+      "statusCode": 400,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Sun, 02 Mar 2025 10:39:45 GMT",
+        "x-ratelimit-reset": "1740912586",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "50",
+        "etag": "W/\"32-47TS1TtWPXIa5gsh1H/OiBfSmYE\""
+      }
+    }
+    responseTime: 18
