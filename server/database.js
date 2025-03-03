@@ -2,14 +2,12 @@ const bcrypt = require("bcrypt");
 const sqlite3 = require("sqlite3").verbose();
 const { promisify } = require("util");
 
-const tweetsTableExists = "SELECT name FROM sqlite_master WHERE type='table' AND name='tweets'";
 const createTweetsTable = `CREATE TABLE IF NOT EXISTS tweets (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT,
   timestamp TEXT,
   text TEXT
 )`;
-const usersTableExists = "SELECT name FROM sqlite_master WHERE type='table' AND name='users'";
 const createUsersTable = `CREATE TABLE IF NOT EXISTS users (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT UNIQUE,
@@ -19,18 +17,18 @@ const createUsersTable = `CREATE TABLE IF NOT EXISTS users (
 const initializeDatabase = async () => {
   return new Promise((resolve, reject) => {
     const db = new sqlite3.Database("./minitwitter.db", (err) => {
-      if (err) reject(err);
+      if (err) return reject(err);
     });
 
     db.serialize(async () => {
       db.run(createTweetsTable);
       db.run(createUsersTable);
 
-      db.get(usersTableExists, [], async (err, row) => {
-        if (err) console.error(err.message);
-        if (!row) {
-          console.log("Erstelle Nutzer mit sicheren Passwörtern...");
-
+      // Prüfe, ob bereits Nutzer existieren
+      db.get("SELECT COUNT(*) as count FROM users", [], async (err, row) => {
+        if (err) return console.error(err.message);
+        if (row.count === 0) {
+          console.log("Erstelle Testnutzer mit sicheren Passwörtern...");
           const users = [
             { username: "switzerchees", password: "123456" },
             { username: "john", password: "123456" },
@@ -56,12 +54,10 @@ const initializeDatabase = async () => {
   });
 };
 
-// SQL-Query ausführen (SELECT)
 const queryDB = async (db, query, params = []) => {
   return await db.allAsync(query, params);
 };
 
-// SQL-Insert ausführen (INSERT, UPDATE, DELETE)
 const insertDB = async (db, query, params = []) => {
   return await db.runAsync(query, params);
 };
