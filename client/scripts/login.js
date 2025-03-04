@@ -13,14 +13,26 @@ document.addEventListener("DOMContentLoaded", () => {
     errorBox.style.display = "none";
   };
 
-  loginButton.addEventListener("click", async () => {
-    clearError(); 
+  const sanitizeInput = (input) => {
+    return input.replace(/[<>]/g, ""); 
+  };
 
-    const username = usernameInput.value.trim();
-    const password = passwordInput.value.trim();
+  loginButton.addEventListener("click", async () => {
+    clearError();
+
+    let username = usernameInput.value.trim();
+    let password = passwordInput.value.trim();
+
+    username = sanitizeInput(username); 
+    password = sanitizeInput(password);
 
     if (!username || !password) {
-      showError("Benutzername und Passwort erforderlich!");
+      showError("⚠️ Benutzername und Passwort erforderlich!");
+      return;
+    }
+
+    if (username.length > 30 || password.length > 50) {
+      showError("⚠️ Eingaben sind zu lang!");
       return;
     }
 
@@ -34,15 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
 
       if (!response.ok) {
-        showError(data.error || "Fehler beim Login");
+        showError(data.error || "❌ Fehler beim Login");
         return;
       }
 
-      sessionStorage.setItem("user", JSON.stringify(data));
-
       window.location.href = "/index.html";
     } catch (error) {
-      showError("Serverfehler. Bitte später erneut versuchen.");
+      showError("❌ Serverfehler. Bitte später erneut versuchen.");
     }
   });
 
