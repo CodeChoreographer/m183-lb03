@@ -3,27 +3,26 @@ document.addEventListener("DOMContentLoaded", () => {
   const postTweetButton = document.getElementById("post-tweet");
   const logoutButton = document.getElementById("logout");
   const tweetErrorBox = document.getElementById("tweet-error-box");
-  const tweetSuccessBox = document.getElementById("tweet-success-box"); 
+  const tweetSuccessBox = document.getElementById("tweet-success-box");
   const feedContainer = document.getElementById("feed");
 
-  const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(sessionStorage.getItem("user")); 
   if (!user) {
     window.location.href = "/login.html";
   }
 
-  
   const showError = (message) => {
     tweetErrorBox.textContent = message;
     tweetErrorBox.style.display = "block";
-    tweetSuccessBox.style.display = "none"; 
+    tweetSuccessBox.style.display = "none";
   };
 
   const showSuccess = (message) => {
     tweetSuccessBox.textContent = message;
     tweetSuccessBox.style.display = "block";
-    tweetErrorBox.style.display = "none"; 
+    tweetErrorBox.style.display = "none";
     setTimeout(() => {
-      tweetSuccessBox.style.display = "none"; 
+      tweetSuccessBox.style.display = "none";
     }, 3000);
   };
 
@@ -45,15 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const tweets = await response.json();
-
       if (!tweets || tweets.length === 0) {
         feedContainer.innerHTML = "<p class='text-gray-400 text-center'>Keine Tweets vorhanden</p>";
         return;
       }
 
-      feedContainer.innerHTML = tweets
-        .map((tweet) => generateTweet(tweet))
-        .join("");
+      feedContainer.innerHTML = tweets.map((tweet) => generateTweet(tweet)).join("");
     } catch (error) {
       console.error("Fehler beim Abrufen des Feeds:", error);
       showError("Tweets konnten nicht geladen werden.");
@@ -87,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       await getFeed();
       newTweetInput.value = "";
-      showSuccess("✅ Tweet erfolgreich gepostet!"); 
+      showSuccess("✅ Tweet erfolgreich gepostet!");
     } catch (error) {
       console.error("Fehler beim Posten des Tweets:", error);
       showError("Tweet konnte nicht gepostet werden.");
@@ -125,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   newTweetInput.addEventListener("input", clearMessages);
   logoutButton.addEventListener("click", () => {
-    localStorage.clear();
+    sessionStorage.clear(); 
     window.location.href = "/login.html";
   });
 
