@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const sanitizeInput = (input) => {
-    return input.replace(/[<>]/g, ""); 
+    return input.replace(/[<>]/g, "");  
   };
 
   const getFeed = async () => {
