@@ -87,7 +87,7 @@ const postTweet = async (req, res) => {
 
     const username = req.user.username;
     const timestamp = new Date().toISOString();
-    const encryptedText = encryptText(text); // 🔒 Nachricht verschlüsseln
+    const encryptedText = encryptText(text); 
 
     const query = "INSERT INTO tweets (username, timestamp, text) VALUES (?, ?, ?)";
     await insertDB(db, query, [username, timestamp, encryptedText]);
@@ -100,7 +100,6 @@ const postTweet = async (req, res) => {
   }
 };
 
-// 🔑 Login-Funktion mit bcrypt & JWT-Erstellung
 const login = async (req, res) => {
   try {
     const { username, password } = req.body;
