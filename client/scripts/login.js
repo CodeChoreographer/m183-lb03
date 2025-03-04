@@ -4,20 +4,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginButton = document.getElementById("login");
   const errorBox = document.getElementById("error-box");
 
-  // 🔹 Funktion zum Anzeigen von Fehlern im UI
   const showError = (message) => {
     errorBox.textContent = message;
     errorBox.style.display = "block";
   };
 
-  // 🔹 Fehler entfernen, wenn der Nutzer etwas Neues eingibt
   const clearError = () => {
     errorBox.style.display = "none";
   };
 
-  // 🔹 Login-Button Click-Event
   loginButton.addEventListener("click", async () => {
-    clearError(); // Vorherige Fehler zurücksetzen
+    clearError(); 
 
     const username = usernameInput.value.trim();
     const password = passwordInput.value.trim();
@@ -30,9 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const response = await fetch("/api/login", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
       });
 
@@ -43,18 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      if (data.token) {
-        localStorage.setItem("user", JSON.stringify(data));
-        window.location.href = "/";
-      } else {
-        showError("Fehler: Ungültige Antwort vom Server");
-      }
+      sessionStorage.setItem("user", JSON.stringify(data));
+
+      window.location.href = "/index.html";
     } catch (error) {
       showError("Serverfehler. Bitte später erneut versuchen.");
     }
   });
 
-  // 🔹 Fehler verschwinden, wenn der Nutzer neu eingibt
   usernameInput.addEventListener("input", clearError);
   passwordInput.addEventListener("input", clearError);
 });

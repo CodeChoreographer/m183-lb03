@@ -9,18 +9,15 @@ let db;
 
 const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY || "supersecretkey";
 
-// Verschlüsseln eines Tweets
 const encryptText = (text) => {
   return CryptoJS.AES.encrypt(text, ENCRYPTION_KEY).toString();
 };
 
-// Entschlüsseln eines Tweets
 const decryptText = (ciphertext) => {
   const bytes = CryptoJS.AES.decrypt(ciphertext, ENCRYPTION_KEY);
   return bytes.toString(CryptoJS.enc.Utf8);
 };
 
-// Middleware zur Authentifizierung mit JWT
 const authenticateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
@@ -35,7 +32,6 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
-// API initialisieren
 const initializeAPI = async (app) => {
   db = await initializeDatabase();
 
@@ -44,7 +40,6 @@ const initializeAPI = async (app) => {
   app.post("/api/login", login);
 };
 
-// 📝 Feed abrufen (nur für authentifizierte Benutzer)
 const getFeed = async (req, res) => {
   try {
     if (!req.user || !req.user.username) {
@@ -54,12 +49,11 @@ const getFeed = async (req, res) => {
     const query = "SELECT id, username, timestamp, text FROM tweets ORDER BY id DESC";
     const encryptedTweets = await queryDB(db, query, []);
 
-    // Tweets entschlüsseln
     const tweets = encryptedTweets.map((tweet) => ({
       id: tweet.id,
       username: tweet.username,
       timestamp: tweet.timestamp,
-      text: decryptText(tweet.text), // 🔓 Nachricht entschlüsseln
+      text: decryptText(tweet.text), 
     }));
 
     res.json(tweets);
@@ -69,7 +63,6 @@ const getFeed = async (req, res) => {
   }
 };
 
-// ✍ Tweet posten (nur für eingeloggte Benutzer)
 const postTweet = async (req, res) => {
   try {
     if (!req.user || !req.user.username) {
