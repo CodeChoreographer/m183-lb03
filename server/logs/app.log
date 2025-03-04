@@ -1004,3 +1004,3338 @@
       }
     }
     responseTime: 3
+[2025-03-03 12:00:31] INFO (on CEDRIC-WPHOME): [2025-03-03T12:00:31.666Z] 30: Server laeuft auf Port 3000
+[2025-03-03 15:27:55] INFO (on CEDRIC-WPHOME): [2025-03-03T15:27:55.645Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:14:27] INFO (on CEDRIC-WPHOME): [2025-03-04T17:14:27.842Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:16:51] [32mINFO[39m (on CEDRIC-WPHOME): [36m[2025-03-04T17:16:51.233Z] 30: Server laeuft auf Port 3000[39m
+[2025-03-04 17:27:49] INFO (on CEDRIC-WPHOME): [2025-03-04T17:27:49.402Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:28:02] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:02.041Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50759
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:28:02 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 32
+[2025-03-04 17:28:02] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:02.185Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50759
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:28:02 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:28:02] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:02.191Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50760
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:28:02 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:28:02] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:02.655Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50760
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:28:02 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 7
+[2025-03-04 17:28:02] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:02.671Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/favicon.ico",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50760
+    }
+    res: {
+      "statusCode": 404,
+      "headers": {
+        "content-security-policy": "default-src 'none'",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:28:02 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": 150
+      }
+    }
+    responseTime: 9
+[2025-03-04 17:28:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:11.678Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "30",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDEwMDI5MTYsImV4cCI6MTc0MTAwNjUxNn0.WBcqzgUlncp0SNr0CvmiH3d_SCbyfciQbbfExtQCxDs",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50775
+    }
+    res: {
+      "statusCode": 403,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:28:11 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "29",
+        "etag": "W/\"1d-nNkwKwPa+QLndyuDhBhOG9GqGcY\""
+      }
+    }
+    responseTime: 4
+[2025-03-04 17:28:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:28:11.682Z] 30: request completed
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50775
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "43",
+        "date": "Tue, 04 Mar 2025 17:28:11 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:29:17] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:17.155Z] 30: request completed
+    req: {
+      "id": 8,
+      "method": "GET",
+      "url": "/login.html",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"707-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50881
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "42",
+        "date": "Tue, 04 Mar 2025 17:29:17 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"707-1955bd2fe7b\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:29:17] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:17.200Z] 30: request completed
+    req: {
+      "id": 9,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50881
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "41",
+        "date": "Tue, 04 Mar 2025 17:29:17 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:29:17] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:17.207Z] 30: request completed
+    req: {
+      "id": 10,
+      "method": "GET",
+      "url": "/scripts/login.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"45f-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50881
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "40",
+        "date": "Tue, 04 Mar 2025 17:29:17 GMT",
+        "x-ratelimit-reset": "1741109883",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"45f-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:29:31] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:31.533Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:29:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:33.582Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/login.html",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"707-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50960
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:29:33 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"707-1955bd2fe7b\""
+      }
+    }
+    responseTime: 12
+[2025-03-04 17:29:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:33.614Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50960
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:29:33 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:29:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:33.626Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/login.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"45f-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50960
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:29:33 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"45f-1955bd2fe7d\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.179Z] 30: ✅ Erfolgreicher Login für Benutzer: john
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.181Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "POST",
+      "url": "/api/login",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "39",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50961
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:29:43 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "194",
+        "etag": "W/\"c2-arO07Rw1O4HeNr4aujkNu2CvTCg\""
+      }
+    }
+    responseTime: 68
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.201Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50961
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:29:43 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.247Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 50961
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:29:43 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.248Z] 30: request completed
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51007
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "43",
+        "date": "Tue, 04 Mar 2025 17:29:43 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:29:43] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:43.342Z] 30: request completed
+    req: {
+      "id": 8,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51007
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "42",
+        "date": "Tue, 04 Mar 2025 17:29:43 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:29:46] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:46.374Z] 30: Neuer Tweet von john: test
+[2025-03-04 17:29:46] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:46.375Z] 30: request completed
+    req: {
+      "id": 9,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "15",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDkzODMsImV4cCI6MTc0MTExMjk4M30._3DF1CZHBGw8UwDpRQ5Qa_61UQhd4ChR9n1NRnOAYjo",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51007
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "41",
+        "date": "Tue, 04 Mar 2025 17:29:46 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "etag": "W/\"36-jWfWpitU9Vje3TvaFVCdUHMjRs8\""
+      }
+    }
+    responseTime: 11
+[2025-03-04 17:29:46] INFO (on CEDRIC-WPHOME): [2025-03-04T17:29:46.379Z] 30: request completed
+    req: {
+      "id": 10,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51007
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "40",
+        "date": "Tue, 04 Mar 2025 17:29:46 GMT",
+        "x-ratelimit-reset": "1741109974",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:32:30] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:30.946Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:32:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:33.743Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:32:33 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 12
+[2025-03-04 17:32:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:33.779Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:32:33 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:32:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:33.784Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:32:33 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:32:33] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:33.992Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:32:33 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 5
+[2025-03-04 17:32:37] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:37.375Z] 30: Neuer Tweet von john: test
+[2025-03-04 17:32:37] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:37.376Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "15",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDkzODMsImV4cCI6MTc0MTExMjk4M30._3DF1CZHBGw8UwDpRQ5Qa_61UQhd4ChR9n1NRnOAYjo",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:32:37 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "etag": "W/\"36-jWfWpitU9Vje3TvaFVCdUHMjRs8\""
+      }
+    }
+    responseTime: 12
+[2025-03-04 17:32:37] INFO (on CEDRIC-WPHOME): [2025-03-04T17:32:37.379Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51143
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:32:37 GMT",
+        "x-ratelimit-reset": "1741110154",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:07] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:07.213Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:36:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:11.623Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:36:11 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 14
+[2025-03-04 17:36:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:11.714Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:36:11 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:36:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:11.726Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:36:11 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:11] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:11.993Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:36:11 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 5
+[2025-03-04 17:36:13] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:13.486Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/login.html",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"707-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:36:13 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"707-1955bd2fe7b\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:36:13] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:13.517Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:36:13 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:36:13] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:13.519Z] 30: request completed
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/scripts/login.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"45f-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51184
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "43",
+        "date": "Tue, 04 Mar 2025 17:36:13 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"45f-1955bd2fe7d\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.128Z] 30: ✅ Erfolgreicher Login für Benutzer: john
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.129Z] 30: request completed
+    req: {
+      "id": 8,
+      "method": "POST",
+      "url": "/api/login",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "39",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51185
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "42",
+        "date": "Tue, 04 Mar 2025 17:36:20 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "194",
+        "etag": "W/\"c2-reApgbb/nN1hSmq/VKkvEiwSGEY\""
+      }
+    }
+    responseTime: 67
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.148Z] 30: request completed
+    req: {
+      "id": 9,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51185
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "41",
+        "date": "Tue, 04 Mar 2025 17:36:20 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.202Z] 30: request completed
+    req: {
+      "id": 10,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51185
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "40",
+        "date": "Tue, 04 Mar 2025 17:36:20 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.203Z] 30: request completed
+    req: {
+      "id": 11,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "39",
+        "date": "Tue, 04 Mar 2025 17:36:20 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:36:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:20.290Z] 30: request completed
+    req: {
+      "id": 12,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "38",
+        "date": "Tue, 04 Mar 2025 17:36:20 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:36:22] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:22.909Z] 30: Neuer Tweet von john: test
+[2025-03-04 17:36:22] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:22.911Z] 30: request completed
+    req: {
+      "id": 13,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "15",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDk3ODAsImV4cCI6MTc0MTExMzM4MH0.Wv8k9IKcAI2UX84y-I9Ok59QXBUbUzI3mYKwyNoflfA",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "37",
+        "date": "Tue, 04 Mar 2025 17:36:22 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "etag": "W/\"36-jWfWpitU9Vje3TvaFVCdUHMjRs8\""
+      }
+    }
+    responseTime: 9
+[2025-03-04 17:36:22] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:22.914Z] 30: request completed
+    req: {
+      "id": 14,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "36",
+        "date": "Tue, 04 Mar 2025 17:36:22 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:23] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:23.719Z] 30: request completed
+    req: {
+      "id": 15,
+      "method": "GET",
+      "url": "/login.html",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"707-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "35",
+        "date": "Tue, 04 Mar 2025 17:36:23 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"707-1955bd2fe7b\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:36:23] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:23.762Z] 30: request completed
+    req: {
+      "id": 16,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51189
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "34",
+        "date": "Tue, 04 Mar 2025 17:36:23 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:36:23] INFO (on CEDRIC-WPHOME): [2025-03-04T17:36:23.764Z] 30: request completed
+    req: {
+      "id": 17,
+      "method": "GET",
+      "url": "/scripts/login.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"45f-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51185
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "33",
+        "date": "Tue, 04 Mar 2025 17:36:23 GMT",
+        "x-ratelimit-reset": "1741110372",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"45f-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:37:38] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:38.942Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:37:41] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:41.956Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:37:41 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 16
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.053Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 4
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.054Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.397Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 6
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.398Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/login.html",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"707-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"707-1955bd2fe7b\""
+      }
+    }
+    responseTime: 6
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.438Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:37:42] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:42.439Z] 30: request completed
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/scripts/login.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"45f-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "43",
+        "date": "Tue, 04 Mar 2025 17:37:42 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"45f-1955bd2fe7d\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.243Z] 30: ✅ Erfolgreicher Login für Benutzer: john
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.243Z] 30: request completed
+    req: {
+      "id": 8,
+      "method": "POST",
+      "url": "/api/login",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "39",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "42",
+        "date": "Tue, 04 Mar 2025 17:37:47 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "194",
+        "etag": "W/\"c2-0BZJDkx9OD7r0IJV4MHK8/mue8o\""
+      }
+    }
+    responseTime: 64
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.262Z] 30: request completed
+    req: {
+      "id": 9,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "41",
+        "date": "Tue, 04 Mar 2025 17:37:47 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.311Z] 30: request completed
+    req: {
+      "id": 10,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51211
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "40",
+        "date": "Tue, 04 Mar 2025 17:37:47 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.312Z] 30: request completed
+    req: {
+      "id": 11,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "39",
+        "date": "Tue, 04 Mar 2025 17:37:47 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"84d-1955bd2fe7c\""
+      }
+    }
+    responseTime: 2
+[2025-03-04 17:37:47] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:47.398Z] 30: request completed
+    req: {
+      "id": 12,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "38",
+        "date": "Tue, 04 Mar 2025 17:37:47 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:37:50] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:50.194Z] 30: 🔏 Neuer verschlüsselter Tweet von john
+[2025-03-04 17:37:50] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:50.195Z] 30: request completed
+    req: {
+      "id": 13,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "15",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDk4NjcsImV4cCI6MTc0MTExMzQ2N30.RGApDtkezHWo4iitXNnUKVG6ggPKvo9qnSVJpwJDlpc",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "37",
+        "date": "Tue, 04 Mar 2025 17:37:50 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "etag": "W/\"36-jWfWpitU9Vje3TvaFVCdUHMjRs8\""
+      }
+    }
+    responseTime: 18
+[2025-03-04 17:37:50] INFO (on CEDRIC-WPHOME): [2025-03-04T17:37:50.199Z] 30: request completed
+    req: {
+      "id": 14,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51210
+    }
+    res: {
+      "statusCode": 401,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "36",
+        "date": "Tue, 04 Mar 2025 17:37:50 GMT",
+        "x-ratelimit-reset": "1741110462",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "32",
+        "etag": "W/\"20-oU65qHUyZq1M/cLV5N7QYhIH+YI\""
+      }
+    }
+    responseTime: 1
+[2025-03-04 17:39:18] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:18.366Z] 30: Server laeuft auf Port 3000
+[2025-03-04 17:39:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:20.722Z] 30: request completed
+    req: {
+      "id": 1,
+      "method": "GET",
+      "url": "/",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"688-1955bd2fe7b\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51220
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "date": "Tue, 04 Mar 2025 17:39:20 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"688-1955bd2fe7b\""
+      }
+    }
+    responseTime: 12
+[2025-03-04 17:39:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:20.752Z] 30: request completed
+    req: {
+      "id": 2,
+      "method": "GET",
+      "url": "/styles.css",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "text/css,*/*;q=0.1",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "style",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"11c-1955bd2fe7d\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51220
+    }
+    res: {
+      "statusCode": 304,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "48",
+        "date": "Tue, 04 Mar 2025 17:39:20 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"11c-1955bd2fe7d\""
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:39:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:20.763Z] 30: request completed
+    req: {
+      "id": 3,
+      "method": "GET",
+      "url": "/scripts/index.js",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "script",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5",
+        "if-none-match": "W/\"84d-1955bd2fe7c\"",
+        "if-modified-since": "Mon, 03 Mar 2025 11:45:09 GMT"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51220
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "47",
+        "date": "Tue, 04 Mar 2025 17:39:20 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Tue, 04 Mar 2025 17:39:12 GMT",
+        "etag": "W/\"c1e-195623d7fe1\"",
+        "content-type": "application/javascript; charset=UTF-8",
+        "content-length": 3102
+      }
+    }
+    responseTime: 6
+[2025-03-04 17:39:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:20.883Z] 30: request completed
+    req: {
+      "id": 4,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDk4NjcsImV4cCI6MTc0MTExMzQ2N30.RGApDtkezHWo4iitXNnUKVG6ggPKvo9qnSVJpwJDlpc",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51220
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "46",
+        "date": "Tue, 04 Mar 2025 17:39:20 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "309",
+        "etag": "W/\"135-sVhxKxhaeBokhLiSEx9tHS1mA20\""
+      }
+    }
+    responseTime: 15
+[2025-03-04 17:39:20] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:20.904Z] 30: request completed
+    req: {
+      "id": 5,
+      "method": "GET",
+      "url": "/img/tweet.png",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51220
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "45",
+        "date": "Tue, 04 Mar 2025 17:39:20 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0",
+        "last-modified": "Mon, 03 Mar 2025 11:45:09 GMT",
+        "etag": "W/\"ba0-1955bd2fe7a\"",
+        "content-type": "image/png",
+        "content-length": 2976
+      }
+    }
+    responseTime: 3
+[2025-03-04 17:39:28] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:28.651Z] 30: 🔏 Neuer verschlüsselter Tweet von john
+[2025-03-04 17:39:28] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:28.652Z] 30: request completed
+    req: {
+      "id": 6,
+      "method": "POST",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "content-length": "15",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDk4NjcsImV4cCI6MTc0MTExMzQ2N30.RGApDtkezHWo4iitXNnUKVG6ggPKvo9qnSVJpwJDlpc",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "origin": "http://localhost:3000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51221
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "44",
+        "date": "Tue, 04 Mar 2025 17:39:28 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "54",
+        "etag": "W/\"36-jWfWpitU9Vje3TvaFVCdUHMjRs8\""
+      }
+    }
+    responseTime: 21
+[2025-03-04 17:39:28] INFO (on CEDRIC-WPHOME): [2025-03-04T17:39:28.661Z] 30: request completed
+    req: {
+      "id": 7,
+      "method": "GET",
+      "url": "/api/feed",
+      "query": {},
+      "params": {},
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJpYXQiOjE3NDExMDk4NjcsImV4cCI6MTc0MTExMzQ2N30.RGApDtkezHWo4iitXNnUKVG6ggPKvo9qnSVJpwJDlpc",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "sec-ch-ua": "\"Not(A:Brand\";v=\"99\", \"Microsoft Edge\";v=\"133\", \"Chromium\";v=\"133\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "de,de-DE;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,de-CH;q=0.5"
+      },
+      "remoteAddress": "::1",
+      "remotePort": 51221
+    }
+    res: {
+      "statusCode": 200,
+      "headers": {
+        "content-security-policy": "default-src 'self';script-src 'self' https://cdn.tailwindcss.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;font-src 'self' https://fonts.gstatic.com;img-src 'self' data:;connect-src 'self';frame-src;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
+        "cross-origin-opener-policy": "same-origin",
+        "cross-origin-resource-policy": "same-origin",
+        "origin-agent-cluster": "?1",
+        "referrer-policy": "no-referrer",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-dns-prefetch-control": "off",
+        "x-download-options": "noopen",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-xss-protection": "0",
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "43",
+        "date": "Tue, 04 Mar 2025 17:39:28 GMT",
+        "x-ratelimit-reset": "1741110561",
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "389",
+        "etag": "W/\"185-FxJJZ/f7KboEI4v1zi9fY6LOD54\""
+      }
+    }
+    responseTime: 6
