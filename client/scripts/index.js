@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const tweetSuccessBox = document.getElementById("tweet-success-box");
   const feedContainer = document.getElementById("feed");
 
-  const user = JSON.parse(sessionStorage.getItem("user")); 
-  if (!user) {
-    window.location.href = "/login.html";
-  }
-
   const showError = (message) => {
     tweetErrorBox.textContent = message;
     tweetErrorBox.style.display = "block";
@@ -31,27 +26,30 @@ document.addEventListener("DOMContentLoaded", () => {
     tweetSuccessBox.style.display = "none";
   };
 
+  const sanitizeInput = (input) => {
+    return input.replace(/[<>]/g, ""); 
+  };
+
   const getFeed = async () => {
     try {
       const response = await fetch(`/api/feed`, {
-        headers: {
-          Authorization: `Bearer ${user.token}`,
-        },
+        headers: { "Content-Type": "application/json" },
       });
 
       if (!response.ok) {
-        throw new Error("Fehler beim Abrufen der Tweets");
+        throw new Error("⚠️ Fehler beim Abrufen der Tweets");
       }
 
       const tweets = await response.json();
+
       if (!tweets || tweets.length === 0) {
         feedContainer.innerHTML = "<p class='text-gray-400 text-center'>Keine Tweets vorhanden</p>";
         return;
       }
 
-      feedContainer.innerHTML = tweets.map((tweet) => generateTweet(tweet)).join("");
+      feedContainer.innerHTML = tweets.map(generateTweet).join("");
     } catch (error) {
-      console.error("Fehler beim Abrufen des Feeds:", error);
+      console.error("❌ Fehler beim Abrufen des Feeds:", error);
       showError("Tweets konnten nicht geladen werden.");
     }
   };
@@ -59,9 +57,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const postTweet = async () => {
     clearMessages();
 
-    const text = newTweetInput.value.trim();
+    let text = newTweetInput.value.trim();
+    text = sanitizeInput(text);
+
     if (!text) {
-      showError("Tweet darf nicht leer sein!");
+      showError("⚠️ Tweet darf nicht leer sein!");
+      return;
+    }
+
+    if (text.length > 280) {
+      showError("⚠️ Tweet zu lang (max. 280 Zeichen)!");
       return;
     }
 
@@ -70,14 +75,13 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${user.token}`,
         },
         body: JSON.stringify({ text }),
       });
 
       if (!response.ok) {
         const data = await response.json();
-        showError(data.error);
+        showError(data.error || "⚠️ Fehler beim Posten des Tweets");
         return;
       }
 
@@ -85,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
       newTweetInput.value = "";
       showSuccess("✅ Tweet erfolgreich gepostet!");
     } catch (error) {
-      console.error("Fehler beim Posten des Tweets:", error);
+      console.error("❌ Fehler beim Posten des Tweets:", error);
       showError("Tweet konnte nicht gepostet werden.");
     }
   };
@@ -106,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3 class="font-semibold">${tweet.username}</h3>
               <p class="text-sm">${date}</p>
             </div>
-            <p>${tweet.text}</p>
+            <p>${sanitizeInput(tweet.text)}</p>
           </div>
         </div>
       </div>`;
@@ -121,8 +125,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   newTweetInput.addEventListener("input", clearMessages);
   logoutButton.addEventListener("click", () => {
-    sessionStorage.clear(); 
-    window.location.href = "/login.html";
+    fetch("/api/logout", { method: "POST" })
+      .then(() => {
+        window.location.href = "/login.html";
+      })
+      .catch((error) => console.error("❌ Fehler beim Logout:", error));
   });
 
   getFeed();
